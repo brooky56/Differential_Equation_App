@@ -4,20 +4,88 @@ import javafx.scene.Scene;
 import javafx.scene.chart.LineChart;
 import javafx.scene.chart.NumberAxis;
 import javafx.scene.chart.XYChart;
+import javafx.scene.control.Tooltip;
 import javafx.stage.Stage;
+import javafx.scene.chart.XYChart.Data;
 
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.ArrayList;
+import java.util.*;
 
 public class Model {
 
-    public static ArrayList<Double> arrayListX = new ArrayList<>();
-    public static ArrayList<Double> arrayListY = new ArrayList<>();
+    private static ArrayList<Double> arrayListX = new ArrayList<>();
+    private static ArrayList<Double> arrayListY = new ArrayList<>();
+
+    public ArrayList<Double> arrX = new ArrayList<>();
+    public ArrayList<Double> arrY = new ArrayList<>();
 
     public static XYChart.Series EM = new XYChart.Series();
 
     public static FileWriter writer;
+
+
+    public void plotOther(double x0, double y0, double X, double step) throws IOException {
+
+        NumberAxis x1 = new NumberAxis();
+        NumberAxis y1 = new NumberAxis();
+
+        LineChart<Number, Number> lineChart1 = new LineChart<Number, Number>(x1, y1);
+
+        lineChart1.setTitle("Integrable curve");
+
+        XYChart.Series<Number, Number> series = new XYChart.Series();
+
+        series.setName("EM");
+
+        int m = (int) ((X - x0) / step); //separation times
+
+        TreeMap data = new TreeMap();
+
+        arrayListX.add(x0);
+        arrayListY.add(y0);
+
+        for (int i = 1; i < m + 1; i++) {
+            arrayListX.add(myEulerX(step, arrayListX.get(i - 1)));
+            arrX.add(myEulerX(step, arrayListX.get(i - 1)));
+        }
+
+        for (int i = 1; i < m + 1; i++) {
+            arrayListY.add(myEulerY(step, arrayListX.get(i - 1), arrayListY.get(i - 1)));
+            arrY.add(myEulerY(step, arrayListX.get(i - 1), arrayListY.get(i - 1)));
+        }
+
+
+
+        for (int i = 0; i < m; i++) {
+            data.put(arrayListX.get(i), arrayListY.get(i));
+        }
+
+        Set set = data.entrySet();
+        Iterator i = set.iterator();
+        while (i.hasNext()) {
+            Map.Entry me = (Map.Entry) i.next();
+            System.out.println(me.getKey() + " - " + me.getValue());
+            series.getData().add(new XYChart.Data(me.getKey(), me.getValue()));
+        }
+
+        lineChart1.getData().add(series);
+
+        for (Data<Number, Number> entry : series.getData()) {
+            System.out.println("Entered!");
+            Tooltip tY = new Tooltip(entry.getYValue().toString());
+            Tooltip tX = new Tooltip(entry.getXValue().toString());
+            Tooltip.install(entry.getNode(), tX);
+            Tooltip.uninstall(entry.getNode(), tX);
+            Tooltip.install(entry.getNode(), tY);
+            Tooltip.uninstall(entry.getNode(), tY);
+        }
+
+        Scene scene1 = new Scene(lineChart1, 600, 600);
+        Stage newStage = new Stage();
+        newStage.setScene(scene1);
+        newStage.show();
+    }
 
     public void plot(double x0, double y0, double X, double step) throws IOException {
 

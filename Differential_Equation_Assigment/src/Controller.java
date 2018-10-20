@@ -56,7 +56,7 @@ public class Controller {
         X = Double.parseDouble(intervalEndTextField.getText());
         step = Double.parseDouble(stepTextField.getText());
 
-        model.plot(x0, y0, X, step);
+        model.plotOther(x0, y0, X, step);
 
     }
 
