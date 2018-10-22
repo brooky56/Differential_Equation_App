@@ -1,7 +1,4 @@
-import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.scene.chart.LineChart;
-import javafx.scene.chart.NumberAxis;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
@@ -55,9 +52,6 @@ public class Controller {
         y0 = Double.parseDouble(initYTextField.getText());
         X = Double.parseDouble(intervalEndTextField.getText());
         step = Double.parseDouble(stepTextField.getText());
-
         model.plotOther(x0, y0, X, step);
-
     }
-
 }
