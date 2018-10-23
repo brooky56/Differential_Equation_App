@@ -42,16 +42,14 @@ public class Controller {
     @FXML
     private Label stepLabel;
 
-    private double x0, y0, X, step;
-
     private Model model = new Model();
 
     @FXML
     void onComputeClick() throws IOException {
-        x0 = Double.parseDouble(initXTextField.getText());
-        y0 = Double.parseDouble(initYTextField.getText());
-        X = Double.parseDouble(intervalEndTextField.getText());
-        step = Double.parseDouble(stepTextField.getText());
-        model.plotOther(x0, y0, X, step);
+        double x0 = Double.parseDouble(initXTextField.getText());
+        double y0 = Double.parseDouble(initYTextField.getText());
+        double x = Double.parseDouble(intervalEndTextField.getText());
+        double step = Double.parseDouble(stepTextField.getText());
+        model.plotEM(x0, y0, x, step);
     }
 }
