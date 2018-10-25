@@ -1,3 +1,4 @@
+import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 
@@ -8,6 +9,7 @@ class EulerMethod {
 
     EulerMethod(double step, int m, double x0, double y0) throws IOException {
         EM(step, m, x0, y0);
+        saveLogs();
     }
 
     public ArrayList<Double> getArrX() {
@@ -30,6 +32,15 @@ class EulerMethod {
         for (int i = 1; i < m + 1; i++) {
             arrY.add(myEulerY(step, arrX.get(i - 1), arrY.get(i - 1)));
         }
+    }
+
+    private void saveLogs() throws IOException {
+        FileWriter writer = new FileWriter("output.txt");
+        writer.write("EM_X: " + arrX.toString() + "\n");
+        writer.write("EM_Y: " + arrY.toString() + "\n");
+        writer.write("---------------------------------------------------------------------------------------------------\n");
+        writer.flush();
+        writer.close();
     }
 
     private static double myEulerX(double h, double xPre) {

@@ -21,7 +21,7 @@ class LineChartHover {
         this.methodName = methodName;
         this.lineChart = new LineChart(new NumberAxis(), new NumberAxis(),
                 FXCollections.observableArrayList(
-                        new XYChart.Series(
+                        new XYChart.Series<>(
                                 methodName,
                                 FXCollections.observableArrayList(
                                         plot(arrayX, arrayY)
@@ -92,4 +92,5 @@ class LineChartHover {
             return label;
         }
     }
+
 }
