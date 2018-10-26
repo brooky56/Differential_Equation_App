@@ -5,11 +5,11 @@ import javafx.stage.Stage;
 import java.io.IOException;
 
 class Model {
-    void plotEM(double x0, double y0, double X, double step) throws IOException {
+    void plotEM(double x0, double y0, double X, double step, Logs logs) throws IOException {
         //separation times
         int m = (int) ((X - x0) / step);
         //use Euler's method
-        EulerMethod EM = new EulerMethod(step, m, x0, y0);
+        EulerMethod EM = new EulerMethod(step, m, x0, y0, logs);
         //plot lineChart
         LineChartHover lineChartHover = new LineChartHover(EM.getArrX(), EM.getArrY(), "Euler's Method");
         lineChartHover.getLineChart().setCursor(Cursor.CROSSHAIR);
@@ -21,11 +21,11 @@ class Model {
         newStage.show();
     }
 
-    void plotImEM(double x0, double y0, double X, double step) throws IOException {
+    void plotImEM(double x0, double y0, double X, double step, Logs logs) throws IOException {
         //separation times
         int m = (int) ((X - x0) / step);
         //use Improved Euler's method
-        ImprovedEulerMethod ImEM = new ImprovedEulerMethod(step, m, x0, y0);
+        ImprovedEulerMethod ImEM = new ImprovedEulerMethod(step, m, x0, y0, logs);
         //plot lineChart
         LineChartHover lineChartHover = new LineChartHover(ImEM.getArrX(), ImEM.getArrY(), "Improved Euler's Method");
         lineChartHover.getLineChart().setCursor(Cursor.CROSSHAIR);
@@ -37,11 +37,11 @@ class Model {
         newStage.show();
     }
 
-    void plotRKM(double x0, double y0, double X, double step) throws IOException {
+    void plotRKM(double x0, double y0, double X, double step, Logs logs) throws IOException {
         //separation times
         int m = (int) ((X - x0) / step);
         //use Runge-Kutta's method
-        RKMethod RKM = new RKMethod(step, m, x0, y0);
+        RKMethod RKM = new RKMethod(step, m, x0, y0, logs);
         //plot lineChart
         LineChartHover lineChartHover = new LineChartHover(RKM.getArrX(), RKM.getArrY(), "Runge-Kutta's Method");
         lineChartHover.getLineChart().setCursor(Cursor.CROSSHAIR);

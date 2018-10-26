@@ -51,11 +51,15 @@ public class Controller {
         double x = Double.parseDouble(intervalEndTextField.getText());
         double step = Double.parseDouble(stepTextField.getText());
 
-        model.plotEM(x0, y0, x, step);
-        model.plotImEM(x0, y0, x, step);
-        model.plotRKM(x0, y0, x, step);
-
         Logs logs = new Logs();
+
+        model.plotEM(x0, y0, x, step, logs);
+        model.plotImEM(x0, y0, x, step, logs);
+        model.plotRKM(x0, y0, x, step, logs);
+
+        Together t = new Together();
+        t.plotAll();
+
         logs.close();
     }
 }

@@ -5,9 +5,9 @@ class ImprovedEulerMethod {
     private ArrayList<Double> arrX = new ArrayList<>();
     private ArrayList<Double> arrY = new ArrayList<>();
 
-    ImprovedEulerMethod(double step, int m, double x0, double y0) throws IOException {
+    ImprovedEulerMethod(double step, int m, double x0, double y0, Logs logs) throws IOException {
         ImEM(step, m, x0, y0);
-        saveLogs();
+        saveLogs(logs);
     }
 
     public ArrayList<Double> getArrX() {
@@ -32,8 +32,7 @@ class ImprovedEulerMethod {
         }
     }
 
-    private void saveLogs() throws IOException {
-        Logs logs = new Logs();
+    private void saveLogs(Logs logs) throws IOException {
         logs.writer.write("ImEM_X: " + arrX.toString() + "\n");
         logs.writer.write("ImEM_Y: " + arrY.toString() + "\n");
         logs.writer.write("---------------------------------------------------------------------------------------------------\n");
