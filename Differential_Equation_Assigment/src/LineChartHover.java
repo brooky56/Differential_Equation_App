@@ -17,6 +17,10 @@ class LineChartHover {
     private String methodName;
     private LineChart lineChart;
 
+    LineChartHover() {
+
+    }
+
     LineChartHover(ArrayList<Double> arrayX, ArrayList<Double> arrayY, String methodName) {
         this.methodName = methodName;
         this.lineChart = new LineChart(new NumberAxis(), new NumberAxis(),
@@ -35,7 +39,7 @@ class LineChartHover {
         return lineChart;
     }
 
-    private ObservableList<XYChart.Data<Double, Double>> plot(ArrayList<Double> arrListX, ArrayList<Double> arrListY) {
+    public ObservableList<XYChart.Data<Double, Double>> plot(ArrayList<Double> arrListX, ArrayList<Double> arrListY) {
         final ObservableList<XYChart.Data<Double, Double>> dataSet = FXCollections.observableArrayList();
         int i = 0;
         while (i < arrListY.size()) {

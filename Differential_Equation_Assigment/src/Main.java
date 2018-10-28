@@ -10,7 +10,6 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("View.fxml"));
         primaryStage.setTitle("Differential Equations");
-
         primaryStage.setScene(new Scene(root));
         primaryStage.show();
     }

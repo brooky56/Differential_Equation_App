@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Controller</OriginalElement>
+  <nodes>
+    <node x="0.0" y="0.0">javafx.application.Application</node>
+    <node x="799.0" y="0.0">EulerMethod</node>
+    <node x="0.0" y="1065.0">LineChartHover</node>
+    <node x="0.0" y="442.0">RKMethod</node>
+    <node x="383.0" y="0.0">ImprovedEulerMethod</node>
+    <node x="0.0" y="880.0">Model</node>
+    <node x="0.0" y="694.0">Error</node>
+    <node x="565.0" y="1065.0">Logs</node>
+    <node x="353.0" y="442.0">Exact</node>
+    <node x="738.0" y="1065.0">Controller</node>
+    <node x="85.5" y="323.0">Main</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Main" target="javafx.application.Application">
+      <point x="0.0" y="-37.0" />
+      <point x="0.0" y="136.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="530.5000000000002" y="23.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

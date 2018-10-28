@@ -2,15 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Together.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Error.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exact.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Differential_Equation_Assigment/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Differential_Equation_Assigment/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Differential_Equation_Assigment/LineChartHover$HoveredThresholdNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Differential_Equation_Assigment/LineChartHover$HoveredThresholdNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Differential_Equation_Assigment/LineChartHover.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Differential_Equation_Assigment/LineChartHover.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Differential_Equation_Assigment/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Differential_Equation_Assigment/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Differential_Equation_Assigment/Model.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Differential_Equation_Assigment/Model.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Differential_Equation_Assigment/Together$HoveredThresholdNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Differential_Equation_Assigment/Together.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output_together.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EulerMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EulerMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ImprovedEulerMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ImprovedEulerMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LineChartHover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LineChartHover.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RKMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RKMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Together.java" beforeDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -105,27 +113,29 @@
     <session id="-1498544509">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.29" value="2" />
+          <entry key="project.open.time.39" value="1" />
           <entry key="project.open.time.41" value="2" />
           <entry key="project.open.time.44" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.50" value="1" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="fxml" value="37" />
-          <entry key="java" value="2623" />
+          <entry key="java" value="4375" />
           <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2623" />
+          <entry key="JAVA" value="4375" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="XML" value="37" />
         </counts>
@@ -134,16 +144,19 @@
       <usages-collector id="statistics.spring.boot.mvc.usages" />
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="28" />
-          <entry key="PLAIN_TEXT" value="2" />
-          <entry key="XML" value="1" />
+          <entry key="JAVA" value="40" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="UML" value="2" />
+          <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="fxml" value="1" />
-          <entry key="java" value="28" />
-          <entry key="txt" value="2" />
+          <entry key="JAVA/Controller" value="1" />
+          <entry key="MODULES/mdl-Differential_Equation_Assigment" value="1" />
+          <entry key="fxml" value="2" />
+          <entry key="java" value="40" />
+          <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -158,8 +171,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="255">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/output.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret lean-forward="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Controller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="51" column="66" selection-start-line="51" selection-start-column="66" selection-end-line="51" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -168,26 +202,39 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Together.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="901">
-              <caret line="53" column="43" selection-start-line="53" selection-start-column="43" selection-end-line="53" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#EM#0;class#Together#0" />
-                <element signature="method#IEM#0;class#Together#0" />
-                <element signature="method#RKM#0;class#Together#0" />
-                <element signature="method#myEulerX#0;class#Together#0" />
-                <element signature="method#myEulerY#0;class#Together#0" />
-                <element signature="method#myIEulerX#0;class#Together#0" />
-                <element signature="method#myIEulerY#0;class#Together#0" />
-                <element signature="method#myRKM_X#0;class#Together#0" />
-                <element signature="method#myRKM_Y#0;class#Together#0" />
-                <element signature="method#myFunction#0;class#Together#0" />
-                <element signature="method#plot#0;class#Together#0" />
-                <element signature="class#HoveredThresholdNode#0;class#Together#0" />
-                <element signature="method#getLabel#0;class#HoveredThresholdNode#0;class#Together#0" />
-              </folding>
+        <entry file="uml://JAVA/Controller">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>Controller</OriginalElement>
+              <nodes>
+                <node x="0.0" y="0.0">javafx.application.Application</node>
+                <node x="799.0" y="0.0">EulerMethod</node>
+                <node x="0.0" y="1065.0">LineChartHover</node>
+                <node x="0.0" y="442.0">RKMethod</node>
+                <node x="383.0" y="0.0">ImprovedEulerMethod</node>
+                <node x="0.0" y="880.0">Model</node>
+                <node x="0.0" y="694.0">Error</node>
+                <node x="565.0" y="1065.0">Logs</node>
+                <node x="353.0" y="442.0">Exact</node>
+                <node x="738.0" y="1065.0">Controller</node>
+                <node x="85.5" y="323.0">Main</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="Main" target="javafx.application.Application">
+                  <point x="0.0" y="-37.0" />
+                  <point x="0.0" y="136.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="530.5000000000002" y="23.5" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Methods</Category>
+                <Category>Constructors</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
             </state>
           </provider>
         </entry>
@@ -212,22 +259,24 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/sample.fxml" />
         <option value="$PROJECT_DIR$/src/LineChart.java" />
         <option value="$PROJECT_DIR$/src/HoveredThresholdNode.java" />
         <option value="$PROJECT_DIR$/src/LineChartWithHover.java" />
-        <option value="$PROJECT_DIR$/src/LineChartHover.java" />
         <option value="$PROJECT_DIR$/src/View.fxml" />
         <option value="$PROJECT_DIR$/src/RungeKuttaMethod.java" />
         <option value="$PROJECT_DIR$/src/Logs.java" />
-        <option value="$PROJECT_DIR$/output.txt" />
-        <option value="$PROJECT_DIR$/src/EulerMethod.java" />
         <option value="$PROJECT_DIR$/src/ImprovedEulerMethod.java" />
-        <option value="$PROJECT_DIR$/src/Controller.java" />
         <option value="$PROJECT_DIR$/src/RKMethod.java" />
-        <option value="$PROJECT_DIR$/src/Model.java" />
         <option value="$PROJECT_DIR$/src/Together.java" />
+        <option value="$PROJECT_DIR$/src/EulerMethod.java" />
+        <option value="$PROJECT_DIR$/src/LineChartHover.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/output.txt" />
+        <option value="$PROJECT_DIR$/src/Exact.java" />
+        <option value="$PROJECT_DIR$/src/Error.java" />
+        <option value="$PROJECT_DIR$/src/Model.java" />
+        <option value="$PROJECT_DIR$/src/Controller.java" />
       </list>
     </option>
   </component>
@@ -253,7 +302,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -270,8 +321,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -284,9 +333,9 @@
     <property name="OverrideImplement.combined" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540543115859" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540769370791" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -429,16 +478,19 @@
       <workItem from="1540308670791" duration="7234000" />
       <workItem from="1540449661306" duration="6590000" />
       <workItem from="1540541227061" duration="1902000" />
+      <workItem from="1540544655014" duration="97000" />
+      <workItem from="1540754063984" duration="13966000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43714000" />
+    <option name="totallyTimeSpent" value="57777000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.108169444" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.11119516" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" />
       <window_info id="Designer" order="3" />
@@ -447,7 +499,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30917874" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30917874" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3993559" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -458,7 +510,7 @@
       <window_info anchor="bottom" id="Changes" order="10" />
       <window_info anchor="bottom" id="Profiler" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" weight="0.32850242" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.3290461" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32850242" />
       <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="15" weight="0.32850242" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -472,6 +524,41 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.11119516" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30917874" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3993559" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32850242" />
+      <window_info anchor="bottom" id="Problems" order="9" />
+      <window_info anchor="bottom" id="Changes" order="10" />
+      <window_info anchor="bottom" id="Profiler" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" weight="0.32850242" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32850242" />
+      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="15" weight="0.32850242" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="JetGradle" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -533,33 +620,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/javafx.controls/javafx/scene/chart/XYChart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="99" selection-start-line="99" selection-end-line="99" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/View.fxml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="13" column="128" selection-start-line="13" selection-start-column="128" selection-end-line="13" selection-end-column="128" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/RungeKuttaMethod.java" />
-    <entry file="file://$PROJECT_DIR$/src/LineChartHover.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="93" column="5" lean-forward="true" selection-start-line="37" selection-start-column="4" selection-end-line="93" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#getLabel#0;class#HoveredThresholdNode#0;class#LineChartHover#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/output_together.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -567,22 +628,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EulerMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#EM#0;class#EulerMethod#0" />
-            <element signature="method#myEulerX#0;class#EulerMethod#0" />
-            <element signature="method#myEulerY#0;class#EulerMethod#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -597,16 +642,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="43" column="57" selection-start-line="43" selection-start-column="57" selection-end-line="43" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/RKMethod.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -617,49 +652,166 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller.java">
+    <entry file="file://$PROJECT_DIR$/src/Together.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4">
-          <caret line="44" column="28" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
+        <state relative-caret-position="170">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/View.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="29" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EulerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#myEulerX#0;class#EulerMethod#0" />
+            <element signature="method#myEulerY#0;class#EulerMethod#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/javafx.controls/javafx/scene/chart/XYChart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="243" column="56" selection-start-line="243" selection-start-column="56" selection-end-line="243" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Exact.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="37" column="5" lean-forward="true" selection-start-line="33" selection-start-column="3" selection-end-line="37" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LineChartHover.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1178#1179#0" expanded="true" />
+            <element signature="method#getLabel#0;class#HoveredThresholdNode#0;class#LineChartHover#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/output.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Error.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="8" column="55" lean-forward="true" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Together.java">
+    <entry file="file://$PROJECT_DIR$/src/Model.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="53" column="43" selection-start-line="53" selection-start-column="43" selection-end-line="53" selection-end-column="43" />
+        <state relative-caret-position="306">
+          <caret line="105" column="157" selection-start-line="105" selection-start-column="157" selection-end-line="105" selection-end-column="157" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#EM#0;class#Together#0" />
-            <element signature="method#IEM#0;class#Together#0" />
-            <element signature="method#RKM#0;class#Together#0" />
-            <element signature="method#myEulerX#0;class#Together#0" />
-            <element signature="method#myEulerY#0;class#Together#0" />
-            <element signature="method#myIEulerX#0;class#Together#0" />
-            <element signature="method#myIEulerY#0;class#Together#0" />
-            <element signature="method#myRKM_X#0;class#Together#0" />
-            <element signature="method#myRKM_Y#0;class#Together#0" />
-            <element signature="method#myFunction#0;class#Together#0" />
-            <element signature="method#plot#0;class#Together#0" />
-            <element signature="class#HoveredThresholdNode#0;class#Together#0" />
-            <element signature="method#getLabel#0;class#HoveredThresholdNode#0;class#Together#0" />
+            <element signature="method#plotEM#0;class#Model#0" />
+            <element signature="method#plotImEM#0;class#Model#0" />
+            <element signature="method#plotRKM#0;class#Model#0" />
+            <element signature="method#plotAll#0;class#Model#0" />
+            <element signature="method#plotErrors#0;class#Model#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MODULES/mdl-Differential_Equation_Assigment">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MODULES</ID>
+          <OriginalElement>mdl-Differential_Equation_Assigment</OriginalElement>
+          <nodes>
+            <node x="" y="">mdl-Differential_Equation_Assigment</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="126.5" y="15.0" />
+          <SelectedNodes />
+          <Categories />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="51" column="66" selection-start-line="51" selection-start-column="66" selection-end-line="51" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/Controller">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>Controller</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">javafx.application.Application</node>
+            <node x="799.0" y="0.0">EulerMethod</node>
+            <node x="0.0" y="1065.0">LineChartHover</node>
+            <node x="0.0" y="442.0">RKMethod</node>
+            <node x="383.0" y="0.0">ImprovedEulerMethod</node>
+            <node x="0.0" y="880.0">Model</node>
+            <node x="0.0" y="694.0">Error</node>
+            <node x="565.0" y="1065.0">Logs</node>
+            <node x="353.0" y="442.0">Exact</node>
+            <node x="738.0" y="1065.0">Controller</node>
+            <node x="85.5" y="323.0">Main</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="Main" target="javafx.application.Application">
+              <point x="0.0" y="-37.0" />
+              <point x="0.0" y="136.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="530.5000000000002" y="23.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Methods</Category>
+            <Category>Constructors</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
