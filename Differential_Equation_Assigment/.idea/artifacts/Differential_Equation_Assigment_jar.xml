@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Differential_Equation_Assigment:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Differential_Equation_Assigment_jar</output-path>
+    <root id="archive" name="Differential_Equation_Assigment.jar">
+      <element id="module-output" name="Differential_Equation_Assigment" />
+    </root>
+  </artifact>
+</component>
